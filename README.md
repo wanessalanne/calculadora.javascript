@@ -37,11 +37,11 @@ Instruções:
 1. Foi construído a parte visual da página utilizando a linguagem HTML5 e CSS3. 
 2. Na página existe um formulário que irá receber os seguintes dados:
 
--nome do anúncio
--cliente
--data de início
--data de término
--investimento por dia
+nome do anúncio
+cliente
+data de início
+data de término
+investimento por dia
 
 Após preencher os campos dos formulários clique no botão cadastrar anúnncio, calcular alcance ou Limpar. 
 No console ficará registrado as informações na qual a pessoa optou.
