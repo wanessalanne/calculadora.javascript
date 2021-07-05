@@ -46,8 +46,8 @@ Instruções:
 Após preencher os campos dos formulários clique no botão cadastrar anúnncio, calcular alcance ou Limpar. 
 No console ficará registrado as informações na qual a pessoa optou.
 
-3.Para imprimir o relatório, basta cadastrar primeiramente o anúncio, em seguida preencher com o nome do cliente ou colocar a informação das datas.
-4.Aparecerá o nome do anúncio cujo nome a pessoa cadastrou e para gerar relatório basta clicar no botão "gerar relatório", aparecerá s seguintes dados:
+3. Para imprimir o relatório, basta cadastrar primeiramente o anúncio, em seguida preencher com o nome do cliente ou colocar a informação das datas.
+4. Aparecerá o nome do anúncio cujo nome a pessoa cadastrou e para gerar relatório basta clicar no botão "gerar relatório", aparecerá s seguintes dados:
 
 Valor Total Investido
 Quantidade máxima de visualizações
