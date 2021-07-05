@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <script defer src="./script.js"></script>
+    <title>Desafio Capgemini</title>
+</head>
+<body>
+    <nav class="barra-navegacao">
+        <img class="barra-navegacao_logotipo" src="img/logo.jpg" alt="logotipo Capgemini">
+    </nav>
+        <main class="calculadora_anuncios">
+            <div class="calculadora_container">
+                <h1 class="calculadora_title">Cadastrar/Calcular Anúncios</h1>
+            <!--Formulário: Nome do anúncio, nome do cliente, investimento, datas: ínicio e fim-->
+                    <form class="cadastro_form">
+                <input type="text" id="NomeAnuncio" placeholder="Nome do Anúncio">
+                <input type="text" id="NomeCliente" placeholder="Cliente">
+                <input type="number" id="ValorInvestido" placeholder="Valor do Investimento"><p></p>                
+                <label for="date">Data de Início:</label>
+                <input type="date" id="DataInicio" placeholder="xx/xx/xxxx">
+                <label for="date">Data de Término:</label>
+                <input type="date" id="DataTermino" placeholder="xx/xx/xxxx">
+                <br><br>
+                <!--Botoes-->
+                <div>
+                    <button class="alinhaBts" id="cadastrarAnuncio">Cadastrar</button>                
+                    <button class="alinhaBts" id ="calcularAlcance">Calcular Alcance</button>                
+                </div>
+                <input class="alinhaReset" type="reset" value="Limpar">
+                <br><br>
+                    </form>
+        <main class="gerador_relatorios">
+            <div class="gerador_relatorios">
+                <h1 class="gerador_title">Gerador de Relatórios</h1>
+            <!--Formulário: Cliente, datas: ínicio e fim-->
+                    <form class="relatorio_form">          
+                        <input class="alignInput" type="text" id="nomeClienteBusca" placeholder="Cliente"><br>             
+                        <input class="alignInput" type="date" id="DataInicioBusca" placeholder="xx/xx/xxxx"><br>
+                        <input class="alignInput" type="date" id="DataTerminoBusca" placeholder="xx/xx/xxxx"><br><br>                
+            <!--Botão Buscar-->
+                <div>
+                    <button class="alinhaReset" id="gerador_relatorios" value="gerador_relatorios">Buscar</button><br><br>            
+                </div>
+                    </form>
+                    <div id="resultadoBusca">            
+                    </div>
+                    <div id="resultadoRelatorio">
+                    </div>
+            </div> 
+        </main>
+</body>
+</html>
